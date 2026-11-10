@@ -1,0 +1,81 @@
+{
+    "$schema": "https://fundingjson.org/schema/v1.1.0.json",
+    "version": "v1.1.0",
+    "entity": {
+        "type": "individual",
+        "role": "maintainer",
+        "name": "Pharez Vitalis",
+        "email": "orcid.conceded130@passinbox.com",
+        "description": "Solo developer and recent Master's graduate in AI looking to take a project further to help AI availability for all.",
+        "webpageUrl": {
+            "url": "https://pharez.co.uk"
+        }
+    },
+    "projects": [
+        {
+            "guid": "m-strat",
+            "name": "m-strat",
+            "description": "A 'Machine Intelligence Learning Environment' (MILE) designed to help hobbyists and AI engineers prototype ML systems faster while still maintaining code sovereignty.",
+            "webpageUrl": {
+                "url": "https://pypi.org/project/m-strat/"
+            },
+            "repositoryUrl": {
+                "url": "https://gitlab.com/m-strat/m-strat"
+            },
+            "licenses": [
+                "spdx:MIT"
+            ],
+            "tags": [
+                "python",
+                "ai",
+                "ml",
+                "dag",
+                "automl"
+            ]
+        }
+    ],
+    "funding": {
+        "channels": [
+            {
+                "guid": "paypal",
+                "type": "payment-provider",
+                "address": "https://paypal.me/pharezvitalis",
+                "description": "Support or pay directly through PayPal."
+            },
+            {
+                "guid": "buymeacoffee",
+                "type": "payment-provider",
+                "address": "https://buymeacoffee.com/pharezv",
+                "description": "One-time donations via Buy Me a Coffee to support ongoing development."
+            }
+        ],
+        "plans": [
+            {
+                "guid": "developer-time",
+                "status": "active",
+                "name": "Developer compensation",
+                "description": "Covers the cost of developer time working on m-strat.",
+                "amount": 1000,
+                "currency": "GBP",
+                "frequency": "monthly",
+                "channels": [
+                    "paypal"
+                ]
+            },
+            {
+                "guid": "angel-plan",
+                "status": "active",
+                "name": "Goodwill donation",
+                "description": "One-time donation of any amount to support the project.",
+                "amount": 0,
+                "currency": "GBP",
+                "frequency": "one-time",
+                "channels": [
+                    "buymeacoffee",
+                    "paypal"
+                ]
+            }
+        ],
+        "history": []
+    }
+}
